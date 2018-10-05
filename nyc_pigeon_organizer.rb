@@ -10,9 +10,10 @@ def nyc_pigeon_organizer(data)
   end
   names = names.flatten.uniq
   names.each do |i|
-    pigeon_list[i] = {:color => [],
-    :gender => [],
-    :lives => []}
+    pigeon_list[i] = {
+      :color => [],
+      :gender => [],
+      :lives => []}
   end
   pigeon_list.each do |name, p_data|
     data.each do |feature, feat_hash|

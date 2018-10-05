@@ -26,13 +26,3 @@ def nyc_pigeon_organizer(data)
   end
   return pigeon_list
 end
-
-
-#pigeon_list.each do |name, arr|
-   # data.each do |feature, feat_hash|
-    #  feat_hash.each do |k, v|
-       # if v.include?(name)
-        #  pigeon_list[name][feature] << v.to_s
-     # end
-    #end
-  #end
